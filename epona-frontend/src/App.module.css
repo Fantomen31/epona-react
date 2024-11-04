@@ -1,0 +1,27 @@
+.app {
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content > div {
+    background-color: #3A5A40;
+    border: 2px solid #2C4A33;
+    border-radius: 10px;
+    box-shadow: 
+      0 4px 6px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.08),
+      inset 0 0 0 2px #3A5A40,
+      inset 0 0 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .appText {
+    color: #F5F5F0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
