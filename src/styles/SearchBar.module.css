@@ -1,0 +1,19 @@
+.searchForm {
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .searchButton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .searchButton:hover {
+    background-color: #E67E22;
+    border-color: #E67E22;
+    color: white;
+  }
