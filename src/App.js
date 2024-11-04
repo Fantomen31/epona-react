@@ -12,6 +12,7 @@ import MainContent from './components/MainContent';
 function App() {
   return (
   <div className={styles.appBackground}>
+
       <NavBar />
         <Container className={styles.app}>
           <Routes>

@@ -20,6 +20,7 @@ const CardGrid = ({ category }) => {
     { id: 10, title: `${category} 10`, description: 'Description 10', imageUrl: 'https://picsum.photos/300/200?random=10' },
   ];
 
+
   return (
     <Container fluid className={styles.cardGridContainer}>
       <Row xs={1} sm={2} md={3} lg={4} xl={5} className={styles.cardGrid}>

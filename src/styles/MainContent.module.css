@@ -3,6 +3,14 @@
   }
   
   .customNav {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     padding: 20px 0px 0px 20px;
+  }
+
+  .searchBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 20px;
   }
