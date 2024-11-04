@@ -28,10 +28,16 @@
   
   .navbarBrand img {
     transition: transform 0.3s ease;
+    border-radius: 50%; 
+    width: 45px; 
+    height: 45px; 
+    border: 2px solid transparent;
+    object-fit: cover;
   }
   
   .navbarBrand img:hover {
     transform: scale(1.05);
+    border: 2px solid #E67E22;
   }
   
   .brandText {
