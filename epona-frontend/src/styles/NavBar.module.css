@@ -23,6 +23,7 @@
   .navbarBrand {
     display: flex;
     align-items: center;
+    text-decoration: none;
   }
   
   .navbarBrand img {
@@ -54,10 +55,12 @@
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
+    text-decoration: none;
   }
   
   .navLink:hover {
     color: #E67E22 !important;
+    transform: scale(1.05);
   }
   
   .navLink::after {
