@@ -9,9 +9,9 @@ import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-  <div className={styles.app}>
+  <div className={styles.appBackground}>
         <NavBar />
-        <Container>
+        <Container className={styles.app}>
           <Routes>
             <Route path="/" element={<h1>Home</h1>} />
             <Route path="/login" element={<h1>Login</h1>} />
