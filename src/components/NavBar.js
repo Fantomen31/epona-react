@@ -2,7 +2,6 @@ import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faSignInAlt, faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/logo.webp';
 import styles from '../styles/NavBar.module.css';
 
@@ -24,17 +23,17 @@ const NavBar = () => {
 
           <Nav>
             <NavLink to="/" className={styles.navLink}>
-              <FontAwesomeIcon icon={faHome} className={styles.faIcon} />
+              <FontAwesomeIcon icon="home" className={styles.faIcon} />
               Home
             </NavLink>
 
             <NavLink  to="/login" className={styles.navLink}>
-              <FontAwesomeIcon icon={faSignInAlt} className={styles.faIcon} />
+              <FontAwesomeIcon icon="sign-in-alt" className={styles.faIcon} />
               Login
             </NavLink>
 
             <NavLink to="/signup" className={styles.navLink}>
-              <FontAwesomeIcon icon={faUserPlus} className={styles.faIcon} />
+              <FontAwesomeIcon icon="user-plus" className={styles.faIcon} />
               Sign-up
             </NavLink>
 

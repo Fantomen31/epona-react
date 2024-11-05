@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Tab, Tabs } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CardGrid from './CardGrid';
 import styles from '../styles/MainContent.module.css';
 import styles2 from '../App.module.css'
@@ -24,15 +25,20 @@ const MainContent = () => {
           >
             <Tab 
             eventKey="cities" 
-            title="Cities"
-            className={styles.tab}
+            title={<><FontAwesomeIcon icon="city" /> Cities</>}
             >
             </Tab>
 
-            <Tab eventKey="clubs" title="Clubs">
+            <Tab 
+            eventKey="clubs" 
+            title={<><FontAwesomeIcon icon="users" /> Clubs</>}
+            >
             </Tab>
 
-            <Tab eventKey="events" title="Events">
+            <Tab 
+            eventKey="events" 
+            title={<><FontAwesomeIcon icon="flag" /> Race Events</>}
+            >
             </Tab>
           </Tabs>
         </Col>

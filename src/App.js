@@ -1,10 +1,12 @@
 import styles from './App.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './iconLibrary';
+import './api/axiosDefaults';
+
+import { Route, Routes } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
-import Container from 'react-bootstrap/Container'
-import { Route, Routes } from 'react-router-dom';
-import './api/axiosDefaults';
+import Container from 'react-bootstrap/Container';
 import MainContent from './components/MainContent';
 
 
