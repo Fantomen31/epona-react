@@ -12,7 +12,7 @@ import MainContent from './components/MainContent';
 function App() {
   return (
   <div className={styles.appBackground}>
-
+    <div className={styles.appDiv}>
       <NavBar />
         <Container className={styles.app}>
           <Routes>
@@ -22,6 +22,7 @@ function App() {
           </Routes>
       </Container>
        <MainContent />
+       </div>
   </div>
   );
 }

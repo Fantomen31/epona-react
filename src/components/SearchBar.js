@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, InputGroup, Button } from 'react-bootstrap';
+import { Form, InputGroup, Button, Container } from 'react-bootstrap';
 import { Search } from 'react-bootstrap-icons';
 import styles from '../styles/SearchBar.module.css';
 
@@ -12,20 +12,25 @@ const SearchBar = ({ onSearch }) => {
   };
 
   return (
-    <Form onSubmit={handleSubmit} className={styles.searchForm}>
-      <InputGroup>
+    <Container>
+    <Form onSubmit={handleSubmit}>
+      <InputGroup className={styles.searchInputGroup}>
+      <InputGroup.Text className={styles.searchIcon}>
+          <Search size={15} />
+        </InputGroup.Text>
         <Form.Control
           type="text"
-          placeholder="Search for cities, clubs, or events..."
+          placeholder="Search for a City, Club or Event"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className={styles.searchInput}
         />
-        <Button type="submit" variant="outline-secondary" className={styles.searchButton}>
-          <Search />
+        <Button type="submit" variant="primary" className={styles.searchButton}>
+          Search
         </Button>
       </InputGroup>
     </Form>
+    </Container>
   );
 };
 

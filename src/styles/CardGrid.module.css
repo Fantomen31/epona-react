@@ -1,38 +1,40 @@
 .cardGridContainer {
-    padding: 15px;
-  }
-  
-  .cardGrid {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  
-  .cardColumn {
-    padding: 15px;
-  }
-  
-  .card {
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .cardImage {
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .cardOverlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  
-  .lastUpdated {
-    font-size: 0.8rem;
-    margin-top: auto;
-  }
+  padding: 15px;
+}
+
+.cardGrid {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.cardColumn {
+  padding: 15px;
+}
+
+.card {
+  height: 100%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid #7AB55C;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-color: #E67E22;
+}
+
+.cardImage {
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.lastUpdated {
+  font-size: 0.8rem;
+  margin-top: auto;
+}

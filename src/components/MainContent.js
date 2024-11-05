@@ -22,7 +22,11 @@ const MainContent = () => {
           onSelect={handleSelect} 
           className={styles.customNav}
           >
-            <Tab eventKey="cities" title="Cities">
+            <Tab 
+            eventKey="cities" 
+            title="Cities"
+            className={styles.tab}
+            >
             </Tab>
 
             <Tab eventKey="clubs" title="Clubs">

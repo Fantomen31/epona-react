@@ -1,5 +1,10 @@
 .appBackground {
-  background-color: #F5F5F0;
+  background-color: #b2c1b0;
+  border-radius: 10px;
+}
+
+.appDiv {
+  background-color: #212a21;
 }
 
 .app {
@@ -12,14 +17,7 @@
   }
   
   .content > div {
-    background-color: #3A5A40;
-    box-shadow: 
-      0 4px 6px rgba(0, 0, 0, 0.1),
-      0 1px 3px rgba(0, 0, 0, 0.08),
-      inset 0 0 0 2px #3A5A40,
-      inset 0 0 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px 10px 10px 10px;
-    border: 2px solid #2C4A33;
+    background-color: #212a21;
     margin: 0px 10px;
     z-index: 1030;
   }
