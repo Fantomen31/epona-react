@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Container from 'react-bootstrap/Container';
 import MainContent from './components/MainContent';
+import SignUpForm from './pages/auth/SignUpForm';
 
 
 
@@ -20,7 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<h1>Home</h1>} />
             <Route path="/login" element={<h1>Login</h1>} />
-            <Route path="/signup" element={<h1>Sign-up</h1>} />
+            <Route path="/signup" element={<SignUpForm />} />
           </Routes>
       </Container>
        <MainContent />

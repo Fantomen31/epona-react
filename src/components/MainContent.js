@@ -37,7 +37,7 @@ const MainContent = () => {
 
             <Tab 
             eventKey="events" 
-            title={<><FontAwesomeIcon icon="flag" /> Race Events</>}
+            title={<><FontAwesomeIcon icon="flag" /> Events</>}
             >
             </Tab>
           </Tabs>

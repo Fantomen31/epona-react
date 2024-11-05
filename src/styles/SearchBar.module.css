@@ -31,14 +31,15 @@
 }
 
 .searchButton {
-  background-color: #439746;
+  background-color: #E67E22;
   border: none;
-  color: white;
-  margin: 5px;
+  color: #F5F5F0;
+  padding: 0.75rem;
+  border-radius: 10px !important;
+  cursor: pointer;
   transition: background-color 0.3s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0.5rem;
+  width: 15%;
 }
 
 .searchButton:hover {
