@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import styles from '../../styles/SignInUpForm.module.css';
 
 const SignUpForm = () => {
@@ -99,6 +100,9 @@ const SignUpForm = () => {
           Sign Up
         </Button>
       </Form>
+      <p className={styles.loginLink}>
+        Already have an account? <Link to="/login">Log in</Link>
+      </p>
     </div>
   );
 };
