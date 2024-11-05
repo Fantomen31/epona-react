@@ -4,7 +4,7 @@
 }
 
 .appDiv {
-  background-color: #212a21;
+  background-color: #191e19;
 }
 
 .app {
@@ -17,7 +17,7 @@
   }
   
   .content > div {
-    background-color: #212a21;
+    background-color: #191e19;
     margin: 0px 10px;
     z-index: 1030;
   }
