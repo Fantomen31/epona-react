@@ -11,18 +11,20 @@
   background-color: transparent;
   border: none;
   padding: 10px 15px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
 }
 
 .customNav :global(.nav-link:hover) {
-  background-color: rgba(230, 126, 34, 0.1); /* Slight orange tint on hover */
+  color: #E67E22 !important; /* Autumn orange on hover */
+  background-color: transparent !important;
+  border-bottom: 2px solid #E67E22;
 }
 
 .customNav :global(.nav-link.active) {
-  color: #F5F5F0 !important; /* Creamy white */
-  background-color: #D35400 !important; /* Autumn orange */
-  border: none;
-  border-bottom: 1px solid #D35400;;
+  color: #E67E22 !important; /* Autumn orange when active */
+  background-color: transparent !important;
+  border-bottom: 5px solid #E67E22;
 }
 
 /* Customizing Tab's content */
@@ -40,7 +42,7 @@
 
 /* Customizing selected item icon */
 .customNav :global(.nav-link.active .tab-icon) {
-  color: #F5F5F0 !important; /* Creamy white */
+  color: #E67E22 !important; /* Autumn orange */
 }
 
 .searchBar {
